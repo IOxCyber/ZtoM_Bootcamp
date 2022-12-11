@@ -1,6 +1,6 @@
-### Information-Gathering stage of ethical hacking.
+# Information-Gathering stage of ethical hacking.
 
-# Two Types of Recon
+## Two Types of Recon
   1. Active - By Interacting with target eg. social engineering, active scanning etc 
   2. Passive - Indirectly (Middle source) eg. thu a websites.
 
@@ -9,8 +9,7 @@ for an Org: IP address, emails, phone numbers, Technologies used etc.
 ###
 
 ## How to get IP address of Target:
-1. Active
-
+**1. Active**
 ping - To send ICMP packets to the website.
 eg. ping xx.xx.xx.xx
 
@@ -25,7 +24,7 @@ Whatweb offers both passive scanning and aggressive testing.
 
 eg. whatweb website -v (verbose for better readability)
 
-2. Passive
+**2. Passive**
 By website: eg. ipchecker, whatweb 
 
    
