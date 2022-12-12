@@ -2,9 +2,7 @@
 
 ## Two Types of Recon
   1. Active - By Interacting with target eg. social engineering, active scanning etc 
-  2. Passive - Indirectly (Middle source) eg. thu a websites.
-
-for an Org: IP address, emails, phone numbers, Technologies used etc.
+  2. Passive - Indirectly (Middle source) eg. thu a websites eg. ipchecker, whatweb 
 
 ###
 
@@ -15,6 +13,7 @@ eg. ping xx.xx.xx.xx
 nslookup - IP of Target by Hostname.
 eg. nslookup hostname
 
+###
 whois: More info about target.
 eg. DNS servers, physical location, Registration Data etc 
 
@@ -29,14 +28,21 @@ eg. whatweb website -v (verbose for better readability)
 3. whatweb ip-range --aggression <aggression_level> -v --no-error (to not show error which comes by scanning the offline IPs)
 aggression_level: 1- Stealthy, 3- Aggressive, 4- Heavy
 
-##
 ***To Save the result, use > (greater than sign):***
 eg: whatweb ip-range --aggression <aggression_level> -v --no-error > result.txt
 
 ###
+How to gather emails for a certain company or Domain (Email Finder):
+Way in to system >> To send the malicious links.
 
-**2. Passive**
-By website: eg. ipchecker, whatweb 
+## [Harvester - Kali Tool](https://www.kali.org/tools/theharvester/)
+
+
+
+## [Hunter.io - The Website](https://hunter.io/?via=ion)
+
+
+
 
 
 
