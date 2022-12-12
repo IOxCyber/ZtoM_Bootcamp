@@ -9,7 +9,6 @@ for an Org: IP address, emails, phone numbers, Technologies used etc.
 ###
 
 ## How to get IP address of Target:
-**1. Active**
 ping - To send ICMP packets to the website.
 eg. ping xx.xx.xx.xx
 
@@ -24,8 +23,21 @@ Whatweb offers both passive scanning and aggressive testing.
 
 eg. whatweb website -v (verbose for better readability)
 
+## Scan a VM(Home Network) by [whatweb](https://www.whatweb.net/) tool:
+1. get the IP (ifconfig)
+2. scan the complete range of IP.
+3. whatweb ip-range --aggression <aggression_level> -v --no-error (to not show error which comes by scanning the offline IPs)
+aggression_level: 1- Stealthy, 3- Aggressive, 4- Heavy
+
+##
+***To Save the result, use > (greater than sign):***
+eg: whatweb ip-range --aggression <aggression_level> -v --no-error > result.txt
+
+###
+
 **2. Passive**
 By website: eg. ipchecker, whatweb 
 
-   
+
+
 
