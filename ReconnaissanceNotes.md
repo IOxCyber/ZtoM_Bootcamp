@@ -10,14 +10,16 @@
 ping - To send ICMP packets to the website.
 eg. ping xx.xx.xx.xx
 
-nslookup - IP of Target by Hostname.
+### nslookup 
+To get IP of Target by Hostname.
 eg. nslookup hostname
 
 ###
 whois: More info about target.
 eg. DNS servers, physical location, Registration Data etc 
 
-WhatWeb: Stealthy level(Http only), web scanner to to identify different web technologies used by the website.
+### WhatWeb: 
+Stealthy level(Http only), web scanner to to identify different web technologies used by the website.
 Whatweb offers both passive scanning and aggressive testing.
 
 eg. whatweb website -v (verbose for better readability)
@@ -32,14 +34,36 @@ aggression_level: 1- Stealthy, 3- Aggressive, 4- Heavy
 eg: whatweb ip-range --aggression <aggression_level> -v --no-error > result.txt
 
 ###
+###
+
 How to gather emails for a certain company or Domain (Email Finder):
-Way in to system >> To send the malicious links.
+Way in to system >> To send the malicious links within mails.
 
-## [Harvester - Kali Tool](https://www.kali.org/tools/theharvester/)
+## Mails
+
+### [Harvester - Kali Tool](https://www.kali.org/tools/theharvester/)
+By default gives 500 results.
+can search from a specific domain or all domain.
+[-] Not always provides required results.
+
+### [Hunter.io - The Website](https://hunter.io/?via=ion)
+Paid or free account.
+Only 5 mails without sign in
+
+### Other Information Gathering tools can be found on GitHub.
+## How to Download tools from GitHub: git clone "GitHub_link_of_tool"
+eg. RedHawk, Sherlock, [Other Tools](https://securitytrails.com/blog/osint-tools)
+
+## How to enable Copy/Paste in VM: Devices > Drag and Drop > set Bidirectional. 
+
+###
+###
 
 
 
-## [Hunter.io - The Website](https://hunter.io/?via=ion)
+
+
+
 
 
 
