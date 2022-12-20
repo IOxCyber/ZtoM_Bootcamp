@@ -19,5 +19,5 @@ leverages the Address Resolution Protocol (ARP) to discover connected clients on
 
 
 
-[^1]: TCP (Transmission Control Protocol) is a connection-oriented, 3 way handshake (SYN, SYN/ACK, ACK), No packet loss protocol, used in file transfer, chats.
-[^2]: UDP (User Data Procol) is a connectionless, fast protocol, may loss packets, used in audio/video stream.
+[^1]: TCP (Transmission Control Protocol) connection-oriented, 3 way handshake (SYN, SYN/ACK, ACK), No packet loss protocol, used in file transfer, chats.
+[^2]: UDP (User Data Procol) connectionless, fast protocol, may loss packets, used in audio/video stream.
