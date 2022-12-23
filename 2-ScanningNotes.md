@@ -26,7 +26,7 @@ Flags:
 2. nmap -Pn x.x.x.x/24 - No Ping (skip Host Discovery, Consider all hosts Up/Online)
 3. nmap 192.168.1.1 - Scan a single IP
 4. nmap 192.168.1.1 192.168.2.1 -	Scan specific IP(s)
-5. nmap 192.168.1.1 -p xx	- Port scan for port xx
+5. nmap 192.168.1.1 -p port1,port2 or port range	- Port scan for a range
 6. nmap 192.168.1.1-254 - Scan a range
 7. nmap scanme.nmap.org -	Scan a domain
 8. nmap -iL targets.txt - Scan targets from a file
@@ -37,6 +37,10 @@ Flags:
 13. nmap 192.168.1.1 -sV	- Attempts to determine the version of the service running on port
 14. nmap 192.168.1.1 -A -	Enables OS detection, version detection, script scanning, and traceroute ~(Aggressive Scan)~
 15. nmap 192.168.1.1 -O	- Remote OS detection using TCP/IP stack fingerprinting
+16. nmap 192.168.1.1 -oN	result.txt target_IP - To save scan result in a file
+17. nmap 192.168.1.1 -v - Verbose mode, to see what's happening after running nmap cmd.
+
+Note: -Option can be given before or after the IP is provided.
 
 
 
