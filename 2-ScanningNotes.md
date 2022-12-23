@@ -23,7 +23,7 @@ Flags:
 
 [Cheatsheet Common Scans](https://www.stationx.net/nmap-cheat-sheet/):
 1. nmap -sp x.x.x.x/24 - Ping Scan (CIDR Notation)
-2. nmap -Pn x.x.x.x/24 - No Ping (skip Host Discovery)
+2. nmap -Pn x.x.x.x/24 - No Ping (skip Host Discovery, Consider all hosts Up/Online)
 3. nmap 192.168.1.1 - Scan a single IP
 4. nmap 192.168.1.1 192.168.2.1 -	Scan specific IP(s)
 5. nmap 192.168.1.1 -p xx	- Port scan for port xx
@@ -32,10 +32,11 @@ Flags:
 8. nmap -iL targets.txt - Scan targets from a file
 9. nmap -iR 100	Scan 100 - random hosts
 10. nmap –exclude 192.168.1.1	- Exclude listed hosts
-11. nmap 192.168.1.1 –top-ports 2000	- Port scan the top x ports
-12. nmap 192.168.1.1 -sV	- Attempts to determine the version of the service running on port
-13. nmap 192.168.1.1 -A -	Enables OS detection, version detection, script scanning, and traceroute (Aggressive Scan)
-14. nmap 192.168.1.1 -O	- Remote OS detection using TCP/IP stack fingerprinting
+11. nmap --traceroute x.x.x.x - To check the traceroute taken by a packet to reach the destination
+12. nmap 192.168.1.1 –top-ports 2000	- Port scan the top x ports
+13. nmap 192.168.1.1 -sV	- Attempts to determine the version of the service running on port
+14. nmap 192.168.1.1 -A -	Enables OS detection, version detection, script scanning, and traceroute ~(Aggressive Scan)~
+15. nmap 192.168.1.1 -O	- Remote OS detection using TCP/IP stack fingerprinting
 
 
 
