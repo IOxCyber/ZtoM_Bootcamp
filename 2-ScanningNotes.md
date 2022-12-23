@@ -16,6 +16,8 @@ By default, Nmap performs a SYN Scan, host discovery and then performs a port sc
 Host discovery(process of calculating of live hosts.) is also known as ping scan.
 Can useful in Port Status, OS version, Protocal Version.
 
+[Free site to learning nmap - scanme.nmap.org](http://scanme.nmap.org/)
+
 Flags:
 -sS (SYN Quick Scan/ default scan mode), -sT (TCP connect scan), -sU(UDP slow), -sA(ACK), -sL (List out Target IPs/ Host Discovery list), 
 
