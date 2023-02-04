@@ -14,6 +14,12 @@
 - 
 
 ## Vulnerability Analysis:
-- Searching about a vulnerability on google.
-- using `searchsploit`: results the vulnerabilities with the version. (eg: searchsploit Software_version_name)
+- Searching about a vulnerability on google or using tools such as searchsploit.
+
+## Searchsploit: 
+- lists out vulnerabilities associated with the version. (eg: `searchsploit software_version_name`)
+- provides path, `locate path` to locate the file in the system.
+- 
+
+## Nessus:
 - 
