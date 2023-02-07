@@ -7,8 +7,8 @@ Repo about Cyber Security Roadmap, Tips, Learning Techniques.
 - Tools used in every phase.
 
 1. Recon:
-- (online) nslookup, whois, whatweb, theHarvester, hunter.io, Namecheckr.
-- (Kali-VM) Recon-ng, RedHawk, Sherlock.
+- (online) nslookup, whois, theHarvester, hunter.io, Namecheckr.
+- (Kali-VM) Recon-ng, RedHawk, Sherlock, whatweb
 
 2. Scanning:
 
