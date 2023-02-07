@@ -82,8 +82,6 @@ eg. RedHawk, Sherlock, [Other Tools](https://securitytrails.com/blog/osint-tools
 
 ## How to enable Copy/Paste in VM: Devices > Drag and Drop > set Bidirectional. 
 
-###
-
 
 
 
