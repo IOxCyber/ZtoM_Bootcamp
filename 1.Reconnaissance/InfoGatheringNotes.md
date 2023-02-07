@@ -1,4 +1,4 @@
-# Information Gathering
+# Information GatheringRedHawk
 
 ## Two Types of Recon
   1. Active - By Interacting with target eg. social engineering(Interviewing), automated scanning or manual scanning etc 
@@ -6,25 +6,24 @@
 
 ###
 
-## How to get IP address of a Target:
-ping - To send ICMP packets to the website.
+## To get IP address of a Target:
+ping - To send ICMP packets to the website (Uses no ports)
 eg. ping xx.xx.xx.xx
 
 ### nslookup 
 To get IP of Target by Hostname.
 eg. nslookup hostname
 
-###
-whois: More info about target.
-eg. DNS servers, physical location, Registration Data etc 
+### whois:
+- To fetch DNS servers, physical location, Registration Data etc about target. 
 
 ### WhatWeb: 
-Stealthy level(Http only), web scanner to to identify different web technologies used by the website.
-Whatweb offers both passive scanning and aggressive testing.
+- *Web scanner to identify different web technologies used by the website.*
+- Stealthy level(Http only) Whatweb offers both passive scanning and aggressive testing.
 
 eg. whatweb website -v (verbose for better readability)
 
-## Scan a VM(Home Network) by [whatweb](https://www.whatweb.net/) tool:
+## Scan a VM(Home Network) by [whatweb - Kali tool](https://www.whatweb.net/) tool:
 1. get the IP (ifconfig)
 2. scan the complete range of IP.
 3. whatweb ip-range --aggression <aggression_level> -v --no-error (to not show error which comes by scanning the offline IPs)
@@ -47,14 +46,14 @@ aggression_level: 1- Stealthy, 3- Aggressive, 4- Heavy
 - Not always provides required results.
 
 ### [Hunter.io - The Website](https://hunter.io/?via=ion)
-Paid or free account.
+Paid or free account. same as theHarvester.
 Only 5 mails without sign in
 
-### [Namecheckr](https://www.namecheckr.com/) & [Namechk](https://namechk.com/)
+### [Namecheckr - Web Site](https://www.namecheckr.com/) & [Namechk](https://namechk.com/)
 To check username availability on different social media.
 
 
-### [Recon-ng](https://hackertarget.com/recon-ng-tutorial/)
+### [Recon-ng - Kali tool](https://hackertarget.com/recon-ng-tutorial/)
 - full featured passive recon framework for web-based OSINT.
 - can be used for error based SQL injections, to find sensitive files such as robots. txt. Geo-IP lookup, Banner grabbing, DNS lookup, port scanning, sub-domain information, reverse IP using WHOIS lookup etc.
 - Similar to Metasploit framework but It's used only to gather OSINT not for exploit the target.
@@ -72,10 +71,10 @@ Tips: Create workspaces > create domains > Search for the Modules in marketplace
 ###
 
 ## Other Information Gathering tools can be download on VM from GitHub.
-eg. RedHawk, Sherlock, [Other Tools](https://securitytrails.com/blog/osint-tools)
+eg. , [Sherlock - to find usernames across social networks](https://www.kali.org/tools/sherlock/), [Other Tools](https://securitytrails.com/blog/osint-tools)
+
 
 - How to Download tools from GitHub: 
-
 *Syntex*
 > git clone "GitHub_link_of_tool"
 

@@ -21,5 +21,3 @@
 - provides path, `locate path` to locate the file in the system.
 - 
 
-## Nessus:
-- 
