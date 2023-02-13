@@ -11,7 +11,7 @@
 ### To login to target using different protocols:
 - To make a connection to a port: `IP_Address:Port`
 - To do ftp: `ftp 192.168.x.x`
-- 
+
 
 ## Vulnerability Analysis:
 - Searching about a vulnerability on google or using tools such as searchsploit.
