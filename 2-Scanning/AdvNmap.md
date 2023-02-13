@@ -1,10 +1,13 @@
 ## Advance Nmap: 
-### [Script Category](https://nmap.org/book/nse-usage.html)
+### [Script Scripting Engine](https://nmap.org/book/nse-usage.html)
+- Use to Network Discovery, Service, backdoor, detection, Vulnerability scanning.
+
+### Script Category: To run a Category containing all the related scripts.
 - Scripts Location: cd /usr/share/nmap/scripts
 - Syntex: nmap --script Script_Name IP_Address Scan-Option eg. `nmap --script auth -sS 192.168.x.x`
 - To get help menu for a script: `sudo nmap --script-help Script_Groups_Name`
 
-### Script Groups:
+### Script Groups: To run a specific script
 - Syntex: nmap --script Script_Groups_Name IP_Address eg. `nmap --script firewall-bypass.nse 192.168.x.x`
 
 
