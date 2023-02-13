@@ -9,9 +9,13 @@
 - Syntex: nmap --script Script_Name IP_Address Scan-Option eg. `nmap --script auth -sS 192.168.x.x`
 - To get help menu for a script: `sudo nmap --script-help Script_Groups_Name`
 
+### To download & run the script from git:
+- search for specific script
+- clone the repo
+- eg. `nmap -sV --script=vulscan/vulscan.nse 192.168.x.x`
+
 ### Script Groups: To run a specific script
 - Syntex: nmap --script Script_Groups_Name IP_Address eg. `nmap --script firewall-bypass.nse 192.168.x.x`
-
 
 
 ### Most Useful Scripting Category:
