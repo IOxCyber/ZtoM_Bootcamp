@@ -1,12 +1,9 @@
 ![](https://img.shields.io/badge/ZtoM-BootCamp-purple)
-[Online Course Udemy](https://www.udemy.com/course/complete-ethical-hacking-bootcamp-zero-to-mastery/)
 
-# Zero to Mastery Bootcamp:
+## [Zero to Mastery Bootcamp:](https://www.udemy.com/course/complete-ethical-hacking-bootcamp-zero-to-mastery/)
 Repo about Cyber Security Roadmap, Tips, Learning Techniques.
 
-# Cyber Kill Chain
-- Tools used in every phase.
-
+### Tools used in every phase as per `Cyber Kill Chain`:
 1. Recon:
 - (online) nslookup, whois, theHarvester, hunter.io, Namecheckr.
 - (Kali-VM) Recon-ng, RedHawk, Sherlock, whatweb
