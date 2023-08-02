@@ -1,4 +1,4 @@
-## Nessus tool (Community Edition): `CVE: Common Vulnerability `
+## Nessus tool: `CVE: Common Vulnerability `
 - Designed to help `identify security vulnerabilities and misconfigurations in computer systems, networks, and applications.`
 - can scan for a specific CVE (Common Vulnerabilities and Exposures)
 
@@ -18,6 +18,8 @@
 - Policies can include authentication credentials[^1].
 - Provides seprate templates for scanners & agents i.e Scanner Templates & Agent Templates.
 
+## Components:
+> # 1. Policies:
 ## Policies Types:
 1. Predefined Policies/Scan Templates:
 - `Created by Tenable and are based on best practices and industry standards` eg. basic network scans, web application scans, compliance-specific scans (e.g., PCI DSS), etc.
@@ -26,6 +28,7 @@
 - `Allow organizations to modify the scanning process` according to their unique security requirements and constraints.
 - Can be found in `User Defined` tab.
 
+> # 2. Templates:
 ## A. Scanner Templates/Scan Types: 
 ### 1. Discovery:
 - Host Discovery `(Perform a simple scan to discover live hosts & Open Ports)`
@@ -58,8 +61,19 @@
     2. Compliance:
       - <img width="573" alt="image" src="https://github.com/IOxCyber/ZtoM_Bootcamp/assets/40174034/acc601db-9038-462d-83fd-fd445ebb54d6">
 
-
-This->> 
+## Basic Setting For Policies:
+- `Folder`, the scans will be saved after completion.
+- `Scan Windows`, For Agent Scans only (Time frame for scans)
+- `Permissions`, Controls the User interaction with Scans.
+- `Dashboard`, Scan result page will show up in the interactive dashboard view.
+- `Description`, Specifies a description of the scan.
+- `Target URL`, (Web App Temp only), specifies the URL of Target.
+- `Upload Targets`, a Text file that specifies targets eg. IP, URL.
+- `Frequency`, How often the scan is launched. (Once, Daily, Weekly, Monthly, Yearly)
+- `Starts`, the Exact time & date when a scan launches.
+- `Email Recipinets`, To send the notifications when the scan is completed.
+- `Max Attachment Size`, Max size of report to be sent to mails.
+- 
 
 
 ## Additional:
