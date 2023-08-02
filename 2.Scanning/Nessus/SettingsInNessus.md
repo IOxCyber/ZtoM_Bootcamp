@@ -17,9 +17,21 @@
 
 ## Discovery Scan Settings:
 - `includes settings for Port ranges & Methods`
+
+### Host Discovery:
 - `General Settings`, Test the local Nessus Host, use Fast Network Discovery
--  `Ping Methods`, what protocol to use eg. ARP, TCP, ICMP, UDP
--  `Fragile Devices`
--  `Wake-on-LAN`
+- `Ping Methods`, what protocol to use eg. ARP, TCP, ICMP, UDP
+- `Fragile Devices`
+- `Wake-on-LAN`
+
+- Port Scanning `How to port scanner behaves & which port to Scan`
+- Service Discovery `What service is running on an open`
+
+### Preconfigured Discovery Scan Setting:
+- Host Discovery `Ping Host, OS Identification, Port Scan(common ports), Port Scan(All Ports)`
+
+
+
+
 
 
