@@ -17,7 +17,7 @@
 - Within a policy, `users can select or exclude specific plugins`.
 - Can define the frequency of scanning for target assets.
 - Policies can include authentication credentials[^1].
-- Provides seprate templates for scanners & agents i.e Scanner Templates & Agent Templates.
+- Provides separate templates for scanners & agents i.e Scanner Templates & Agent Templates.
 
 ## Components:
 
@@ -33,7 +33,7 @@
 ###
 
 > # 2. Templates:
-## A. Scanner Templates/Scan Types: 
+## A. Scanner Templates/Scan Types: `Discovery<>Vulnerabilities<>Compliance<>`
 ### 1. Discovery:
 - Host Discovery `(Perform a simple scan to discover live hosts & Open Ports)`
 - Attack Surface Discovery `(Use Bit Discovery to scan High-Level Domains & extract subdomains & DNS-related Data)`
