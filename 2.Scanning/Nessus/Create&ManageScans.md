@@ -13,13 +13,10 @@
 - More > Create Scan > Scan Templates > Set Rest > Launch
 
 ## Import a Scan:
-- Can import an exported[^1] Tenable Nessus(.nessus) or Tenable Nessus(.db) scan.
-- 
+- Can import an exported[^1] Tenable `Nessus(.nessus) or Tenable Nessus(.db)` scan.
+- Scans > My Scans > Import > Scan Import > Password > Upload
 
-
-
-
-
-
+## Modify Scan Settings:
+- <img width="500" alt="image" src="https://github.com/IOxCyber/ZtoM_Bootcamp/assets/40174034/2c1ebf9c-8fd9-4a85-b06a-ac19d0f33495">
 
 [^1]: Exporta scan from one Tenable Nessus Scanner & Import it to a different nessus scanner.
