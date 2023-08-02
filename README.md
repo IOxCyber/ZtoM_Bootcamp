@@ -9,7 +9,9 @@ Repo about Cyber Security Roadmap, Tips, Learning Techniques.
 - (Kali-VM) Recon-ng, RedHawk, Sherlock, whatweb
 
 2. Scanning:
-- 
+- Basic & Advance Nmap
+- Nessus 
 
 3. Exploitation:
+- Bind Shell & Reverse Shell
 - 
