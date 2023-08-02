@@ -19,6 +19,7 @@
 - Provides seprate templates for scanners & agents i.e Scanner Templates & Agent Templates.
 
 ## Components:
+
 > # 1. Policies:
 ## Policies Types:
 1. Predefined Policies/Scan Templates:
@@ -27,6 +28,8 @@
 2. Custom Policies:
 - `Allow organizations to modify the scanning process` according to their unique security requirements and constraints.
 - Can be found in `User Defined` tab.
+
+###
 
 > # 2. Templates:
 ## A. Scanner Templates/Scan Types: 
@@ -60,21 +63,6 @@
 
     2. Compliance:
       - <img width="573" alt="image" src="https://github.com/IOxCyber/ZtoM_Bootcamp/assets/40174034/acc601db-9038-462d-83fd-fd445ebb54d6">
-
-## Basic Setting For Policies:
-- `Folder`, the scans will be saved after completion.
-- `Scan Windows`, For Agent Scans only (Time frame for scans)
-- `Permissions`, Controls the User interaction with Scans.
-- `Dashboard`, Scan result page will show up in the interactive dashboard view.
-- `Description`, Specifies a description of the scan.
-- `Target URL`, (Web App Temp only), specifies the URL of Target.
-- `Upload Targets`, a Text file that specifies targets eg. IP, URL.
-- `Frequency`, How often the scan is launched. (Once, Daily, Weekly, Monthly, Yearly)
-- `Starts`, the Exact time & date when a scan launches.
-- `Email Recipinets`, To send the notifications when the scan is completed.
-- `Max Attachment Size`, Max size of report to be sent to mails.
-- 
-
 
 ## Additional:
 - Agent-Based Scanning (optional): A lightweight s/w installed, particularly useful for environments with restricted network access or offline systems.
