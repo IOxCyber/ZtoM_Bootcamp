@@ -6,6 +6,14 @@
 - Performs following scanning eg. 
 - - Port Scanning, Banner Grabbing, OS & Service Detection, Vulnerability Detection (Signature based detection)
 
+## Vulnerability Management Lifecycle:
+1. `Discover/Identify` all the critical assets, systems, container etc.
+2. `Prioritise Assets` Based on risk/vulnerability.
+3. Assess
+4. Report, with the Identified Vulnerabilities, severity level & remediation steps.
+5. Remediate, Deploy the patch to vulnerable systems.
+6. Verify, Again run the scan to check if the vulnerabilities are mitigated.
+
 ## Features:
 1. Vulnerability Scanning: `To discover known security vulnerabilities`, missing patches, weak configurations, and other potential issues.
 2. Plugin Support: `Collection of plugins to detect a wide range of vulnerabilities`
