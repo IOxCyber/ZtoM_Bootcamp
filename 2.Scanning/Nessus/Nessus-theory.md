@@ -1,7 +1,10 @@
 ## Nessus tool: `CVE: Common Vulnerability `
 - Designed to help `identify security vulnerabilities and misconfigurations in computer systems, networks, and applications.`
+- It's a Automated vulnerability scanner.
 - can scan for a specific CVE (Common Vulnerabilities and Exposures)
 - Nessus has the ability to login to remote Linux (with SSH) & Windows (MS auth technologies).
+- Performs following scanning eg. 
+- - Port Scanning, Banner Grabbing, OS & Service Detection, Vulnerability Detection (Signature based detection)
 
 ## Features:
 1. Vulnerability Scanning: `To discover known security vulnerabilities`, missing patches, weak configurations, and other potential issues.
