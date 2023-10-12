@@ -38,7 +38,7 @@
 17. nmap 192.168.1.1 -v - **Verbose mode, to see what's happening after running nmap cmd.**
 18. nmap –exclude 192.168.1.1	- Exclude listed hosts.
 19. ```nmap -F x.x.x.x - Fast mode (scan 1000 ports), top 100 ports most useful one.```
-20. nmap -oN output x.x.x.x - To save Output of scan or use >> fileName
+20. ```nmap -oN output x.x.x.x - To save Output of scan or use >> fileName```
 
 Note: 
   - Option can be given before or after the IP is provided.
