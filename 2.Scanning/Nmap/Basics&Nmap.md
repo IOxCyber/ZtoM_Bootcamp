@@ -31,8 +31,8 @@ Can useful in Port Status, OS version, Protocal Version.
 11. nmap --traceroute x.x.x.x - To check the traceroute(different routers through packet passes) taken by a packet to reach the destination
 12. nmap 192.168.1.1 –top-ports 2000	- Port scan the top x ports
 13. ```nmap 192.168.1.1 -sV	- Attempts to determine the version of the service running on port```
-14. nmap 192.168.1.1 -A -	Enables OS detection, version detection, script scanning, and traceroute ~(Aggressive Scan)~
-15. nmap 192.168.1.1 -O	- Remote OS detection using TCP/IP stack fingerprinting
+14. ```nmap 192.168.1.1 -A -	Enables OS detection, version detection, script scanning, and traceroute ~(Aggressive Scan)~```
+15. ```nmap 192.168.1.1 -O	- Remote OS detection using TCP/IP stack fingerprinting```
 16. nmap 192.168.1.1 -oN	result.txt target_IP - To save scan result in a file
 17. nmap 192.168.1.1 -v - **Verbose mode, to see what's happening after running nmap cmd.**
 18. nmap –exclude 192.168.1.1	- Exclude listed hosts.
