@@ -17,7 +17,7 @@ Can useful in Port Status, OS version, Protocal Version.
 -sS (SYN Quick Scan/ default scan mode), -sT (TCP connect scan), -sU(UDP slow), -sA(ACK), -sL (List out Target IPs/ Host Discovery list), 
 
 ## [Cheatsheet Common Scans](https://www.stationx.net/nmap-cheat-sheet/):
-1. nmap -sn x.x.x.x/24 - Ping Scan (CIDR Notation)/ Disable Port scanning. Same as NetDiscover.
+1. ```nmap -sn x.x.x.x/24 - Ping Scan (CIDR Notation)/ Disable Port scanning. Same as NetDiscover.```
 2. ```nmap -Pn x.x.x.x/24 - No Ping (skip Host Discovery, Consider all hosts Up/Online)```
 3. nmap 192.168.1.1 - Scan a single IP
 4. nmap 192.168.1.1 192.168.2.1 -	Scan specific IP(s)
