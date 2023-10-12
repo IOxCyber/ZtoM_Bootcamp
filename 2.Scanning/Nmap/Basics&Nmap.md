@@ -7,9 +7,10 @@
 
 
 ## [Nmap Network Mapper](https://nmap.online/en/nmap-commands) - Zenmap (Online Nmap)
-By default, Nmap performs a SYN Scan, host discovery and then performs a port scan against each host it determines is online.
-Host discovery(process of calculating of live hosts.) is also known as ping scan.
-Can useful in Port Status, OS version, Protocal Version.
+- By default, Nmap performs a SYN Scan, host discovery and then performs a port scan against each host it determines is online.
+- Host discovery(process of calculating of live hosts.) is also known as ping scan.
+- Can useful in Port Status, OS version, Protocal Version.
+- Between the protocols User Datagram Protocol (UDP) and Transmission Control Protocol (TCP), ```there are 65,535 ports available for communication between devices.```
 
 [Free site to learning nmap - scanme.nmap.org](http://scanme.nmap.org/)
 
@@ -36,7 +37,7 @@ Can useful in Port Status, OS version, Protocal Version.
 16. nmap 192.168.1.1 -oN	result.txt target_IP - To save scan result in a file
 17. nmap 192.168.1.1 -v - **Verbose mode, to see what's happening after running nmap cmd.**
 18. nmap –exclude 192.168.1.1	- Exclude listed hosts.
-19. nmap -F x.x.x.x - Fast mode, top 100 ports most useful one.
+19. ```nmap -F x.x.x.x - Fast mode (scan 1000 ports), top 100 ports most useful one.```
 20. nmap -oN output x.x.x.x - To save Output of scan or use >> fileName
 
 Note: 
