@@ -1,10 +1,19 @@
-## Advance Nmap: 
+## Advance nmap:
+For IDS/Firewall: Firewall can block & IDS can identify the nmap scan on a system.
+  1. nmap -sF x.x.x.x : Only fin flag, if SYN scan is blocked by firewall. 
+  2. nmap -f x.x.x.x : To split the TCP header into tiny fragmented IP packets to  harden the IDS & firewall blocking of scans.
+  3. nmap -T x.x.x.x : IDS invasion by T(0-5) option. 
+  
+  nmap -D RND:5 x.x.x.x : Decoy scan, to scan external network with RND(random, here 5 IPs)
+  nmap -D x.x.x.x1,x.x.x.x2,x.x.x.x3,x.x.x.x4,ME : to scan in the same network with 5 including ME(scanning scan VM IP)
+
+
 ### [Script Scripting Engine](https://nmap.org/book/nse-usage.html)
 - Use to Network Discovery, Service, backdoor, detection, Vulnerability scanning.
 - run with permission
 
 ### Script Category: To run a Category containing all the related scripts.
-- Scripts Location: cd /usr/share/nmap/scripts
+- ```Scripts Location: cd /usr/share/nmap/scripts```
 - To update the script DB: sudo nmap --script-updatedb
 - Syntex: nmap --script Script_Name IP_Address Scan-Option eg. `nmap --script auth -sS 192.168.x.x`
 - To get help menu for a script: `sudo nmap --script-help Script_Groups_Name`
@@ -46,5 +55,4 @@
 ## Searchsploit: 
 - lists out vulnerabilities associated with the version. (eg: `searchsploit software_version_name`)
 - provides path, `locate path` to locate the file in the system.
-- 
 
