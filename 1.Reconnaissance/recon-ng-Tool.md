@@ -18,9 +18,18 @@ Usage:
     Recon-ng port scanner modules find closes and open ports which can be used to maintain access to the server.
     Recon-ng has various modules that can be used to get the information about target.
 
-*Syntex*
+## Syntex
 > recon-ng --help (use help command wherever seemed stucked)
-> module-path > info (to get info on a module)
+> 
+> module-path > `info` (to get info on a module)
+>
+> Search for the Modules in marketplaces `marketplace serach <keyword>`
+>
+> Install the Modules: `marketplace install <module-path>`
+>
+> set an option in modules: `option set or unset <Option-Name>`
+> 
+> Load modules <module_path> > set the options > `run`
 
 *[Get Started](https://www.geeksforgeeks.org/recon-ng-installation-on-kali-linux/)*
 
@@ -28,6 +37,5 @@ Defination:
 > [recon-ng][default] default is workspaces (like a folder), can create workspaces
 > [recon-ng][default] > marketplace search <keywork> 
  
-> Create workspaces > create domains > Search for the Modules in marketplaces (marketplace serach <keyword>) > Load modules <module_path> > set the options > run
 
 
