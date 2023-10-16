@@ -4,7 +4,7 @@
 Repo about Cyber Security Roadmap, Tips, Learning Techniques.
 
 ### Tools used in every phase in this course as per `Cyber Kill Chain`:
-1. Recon - information gathering:
+## 1. Recon - information gathering:
 > (Online):
 - [nslookup - DNS Records](https://www.nslookup.io/),
 - [whois - Domain Records](https://www.whois.com/),
@@ -18,11 +18,11 @@ Repo about Cyber Security Roadmap, Tips, Learning Techniques.
 - [whatweb],
 - [theHarvester]
 
-2. Scanning:
+## 2. Scanning:
 - [Metasploitable](https://information.rapid7.com/download-metasploitable-2017.html?LS=1631875&CS=web) - Vulnerable Machine
 - [Basic & Advance Nmap](https://nmap.org/)
 - [Nessus Tool](https://www.tenable.com/products/nessus/nessus-essentials)
 
-3. Exploitation:
+## 3. Exploitation:
 - Bind Shell & Reverse Shell
 - 
