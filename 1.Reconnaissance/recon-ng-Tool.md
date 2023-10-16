@@ -6,6 +6,8 @@
 *Syntex*
 > recon-ng --help (use help command wherever seemed stucked)
 
+*[Get Started](https://www.geeksforgeeks.org/recon-ng-installation-on-kali-linux/)*
+
 Defination:
 > [recon-ng][default] default is workspaces (like a folder), can create workspaces
 > [recon-ng][default] > marketplace search <keywork> 
