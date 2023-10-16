@@ -1,5 +1,5 @@
-### 1. [Recon-ng - Kali tool](https://hackertarget.com/recon-ng-tutorial/)
-- full featured passive recon framework for web-based OSINT.
+## 1. [Recon-ng - Kali tool](https://hackertarget.com/recon-ng-tutorial/)
+- Full featured passive recon framework for web-based OSINT.
 - Similar to Metasploit framework but It's ```used only to gather OSINT not for exploit the target.```
 - can used other tools features by adding API keys.
 
