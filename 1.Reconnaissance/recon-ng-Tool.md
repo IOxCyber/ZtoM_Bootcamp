@@ -20,6 +20,7 @@ Usage:
 
 *Syntex*
 > recon-ng --help (use help command wherever seemed stucked)
+> module-path > info (to get info on a module)
 
 *[Get Started](https://www.geeksforgeeks.org/recon-ng-installation-on-kali-linux/)*
 
