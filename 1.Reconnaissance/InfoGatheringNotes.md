@@ -10,14 +10,14 @@
 ping - To send ICMP packets to the website (Uses no ports)
 eg. ping xx.xx.xx.xx
 
-### nslookup 
+### 1. nslookup 
 To get IP of Target by Hostname.
 eg. nslookup hostname
 
-### whois:
+### 2. whois:
 - To fetch DNS servers, physical location, Registration Data etc about target. 
 
-### WhatWeb: 
+### 3. WhatWeb: 
 - *Web scanner to identify different web technologies used by the website.*
 - Stealthy level(Http only) Whatweb offers both passive scanning and aggressive testing.
 
@@ -36,7 +36,7 @@ aggression_level: 1- Stealthy, 3- Aggressive, 4- Heavy
 ###
 ###
 
-### [Harvester - Kali Tool](https://www.kali.org/tools/theharvester/)
+### 4. [Harvester - Email Records/Tool](https://www.kali.org/tools/theharvester/)
 : To find email accounts, subdomain names, virtual hosts, open ports / banners, and employee names related to a specific domain or all domains.
 
 *Syntex*
@@ -45,15 +45,15 @@ aggression_level: 1- Stealthy, 3- Aggressive, 4- Heavy
 - By default gives 500 results.
 - Not always provides required results.
 
-### [Hunter.io - The Website](https://hunter.io/?via=ion)
+### 5. [Hunter.io - Email Records/Site](https://hunter.io/?via=ion)
 Paid or free account. same as theHarvester.
 Only 5 mails without sign in
 
-### [Namecheckr - Web Site](https://www.namecheckr.com/) & [Namechk](https://namechk.com/)
+### 6. [Namecheckr - Web Site](https://www.namecheckr.com/) & [Namechk](https://namechk.com/)
 To check username availability on different social media.
 
 
-### [Recon-ng - Kali tool](https://hackertarget.com/recon-ng-tutorial/)
+### 7. [Recon-ng - Kali tool](https://hackertarget.com/recon-ng-tutorial/)
 - full featured passive recon framework for web-based OSINT.
 - can be used for error based SQL injections, to find sensitive files such as robots. txt. Geo-IP lookup, Banner grabbing, DNS lookup, port scanning, sub-domain information, reverse IP using WHOIS lookup etc.
 - Similar to Metasploit framework but It's used only to gather OSINT not for exploit the target.
