@@ -1,13 +1,13 @@
 import socket # to communicate with other devices over TCP/UDP protocol
-import termcolor # to print statement in colors
+import termcolor # to print any statement in colors
 
 # Function to call scan_port with one Port
-def scan(target, ports):
-	print('\n' + 'Starting Scan for ' + str(target))
+def scan(targets, ports):
+	print('\n' + 'Starting Scan for ' + str(targets))
 	for  port in range(1, ports):
-		scan_port(target, port)
+		scan_port(targets, port)
 
-# Function to scan Target
+# Function to scan  Ports of Target
 def scan_port(ip, port):
 	try:
 		# create Objects
@@ -21,14 +21,14 @@ def scan_port(ip, port):
 		# print("[-] Port Closed" + str(port))
 
 
-targets = input("[*] Enter Targets IP addres (split by comma ,): ")
-ports = int(input("[*] Enter the Ports: "))
+targets = input("[*] Enter Targets IP addres (split the IPs by comma ,): ")
+ports = int(input("[*] Enter Number of Ports to be scanned: "))
 
 # Check for the multiple or single IP
 if ',' in targets:
 	print(termcolor.colored(("[*] Scanning multiple  Targets:"), 'green'))
 	for ip_addr in targets.split(','):
-		scan(ip_addr.strip(' '), ports) #striping out any blank space
+		scan(ip_addr.strip(' '), ports) #strip/cut out any blank space
 else:
 	print("[*] Scanning single Target")
 	scan(targets,ports) # for only one target
