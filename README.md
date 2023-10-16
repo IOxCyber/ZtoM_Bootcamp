@@ -12,7 +12,7 @@ Repo about Cyber Security Roadmap, Tips, Learning Techniques.
 - [Namecheckr - Social and Domain Name Availability Records](https://www.namecheckr.com/)
   
 > (Kali-Linux):
-- [Recon-ng](https://github.com/lanmaster53/recon-ng),
+- [Recon-ng - Info Gathering thu Modules](https://github.com/lanmaster53/recon-ng),
 - [RedHawk],
 - [Sherlock],
 - [whatweb],
