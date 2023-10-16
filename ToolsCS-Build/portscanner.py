@@ -26,7 +26,7 @@ ports = int(input("[*] Enter Number of Ports to be scanned: "))
 
 # Check for the multiple or single IP
 if ',' in targets:
-	print(termcolor.colored(("[*] Scanning multiple  Targets:"), 'green'))
+	print(termcolor.colored(("[*] Scanning multiple  Targets:"), 'green')) #Using termcolor to print the statement in green color.
 	for ip_addr in targets.split(','):
 		scan(ip_addr.strip(' '), ports) #strip/cut out any blank space
 else:
