@@ -23,13 +23,26 @@ Usage:
 > 
 > module-path > `info` (to get info on a module)
 >
+> Create a Workspace: `workspaces create <workspace-name>`
+> 
 > Search for the Modules in marketplaces `marketplace serach <keyword>`
 >
 > Install the Modules: `marketplace install <module-path>`
 >
 > set an option in modules: `option set or unset <Option-Name>`
 > 
-> Load modules <module_path> > set the options > `run`
+> Load modules:  `workspace load <module_path>`
+>
+> set the options: `option set <Option-Value>` > `run`
+>
+> To show any result from Dashboard: `eg. show hosts/contacts`
+
+## Adding API Keys:
+- keys add <API-Name> <API-Keys>
+
+## Database: To interact/modify with the Data stored in the Tool itself.
+- db <delete|insert|notes|query|schema>
+
 
 *[Get Started](https://www.geeksforgeeks.org/recon-ng-installation-on-kali-linux/)*
 
