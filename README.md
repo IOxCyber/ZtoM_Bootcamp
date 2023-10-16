@@ -5,13 +5,13 @@ Repo about Cyber Security Roadmap, Tips, Learning Techniques.
 
 ### Tools used in every phase in this course as per `Cyber Kill Chain`:
 1. Recon - information gathering:
-- - (Online):
+> (Online):
 - [nslookup - DNS Records](https://www.nslookup.io/),
 - [whois - Domain Records](https://www.whois.com/),
 - [hunter.io - Emails Records](https://hunter.io/),
 - [Namecheckr - Social and Domain Name Availability Records](https://www.namecheckr.com/)
-- 
-- - (Kali-Linux):
+  
+> (Kali-Linux):
 - [Recon-ng](https://github.com/lanmaster53/recon-ng),
 - [RedHawk],
 - [Sherlock],
