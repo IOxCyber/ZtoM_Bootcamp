@@ -26,4 +26,8 @@ Repo about Cyber Security Roadmap, Tips, Learning Techniques.
 
 ## 3. Exploitation:
 - Bind Shell & Reverse Shell
+- [Metasploit]()
+- [Netcat - to Allow connection over TCP/UDP](https://www.kali.org/tools/netcat/)
 - 
+
+
