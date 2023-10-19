@@ -5,4 +5,4 @@ For Windows – TTL Value = 128
 For Solaris/AIX – TTL Value = 254
 ```
 
-2. 
+2. netstat -nr 
