@@ -22,7 +22,7 @@ Repo about Cyber Security Roadmap, Tips, Learning Techniques.
 - [Metasploitable](https://information.rapid7.com/download-metasploitable-2017.html?LS=1631875&CS=web) - Vulnerable Machine
 - [Basic & Advance Nmap - to scan a network](https://nmap.org/)
 - [Netdiscover - To detect online hosts in a netwok](https://www.kali.org/tools/netdiscover/)
-- [Nessus Tool -  Advance tool to scan for vuln in a Network](https://www.tenable.com/products/nessus/nessus-essentials)
+- [Nessus Tool -  Advanced tool to scan for vuln in a Network](https://www.tenable.com/products/nessus/nessus-essentials)
 
 ## 3. Exploitation:
 - Bind Shell & Reverse Shell
@@ -30,10 +30,10 @@ Repo about Cyber Security Roadmap, Tips, Learning Techniques.
 - [Netcat - to Allow connection over TCP/UDP](https://www.kali.org/tools/netcat/)
 - [routersploit - Embedded devices](https://github.com/threat9/routersploit)
 - [Metasploit - msfvenom](https://www.metasploit.com/)
-- [Virus Total - To check the payload is detectable by the known Antivirus s/w](https://www.virustotal.com/gui/home/upload)
+- [Virus Total - To check payload Detectability](https://www.virustotal.com/gui/home/upload)
 
 ## Extras:
-- [Virus Total - Analyse suspicious files, domains, IPs and URLs](https://www.virustotal.com/gui/home/upload)
+- [Virus Total - Analyse suspicious files, domains, IPs, and URLs](https://www.virustotal.com/gui/home/upload)
 - 
 
 
