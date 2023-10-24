@@ -26,8 +26,11 @@ Repo about Cyber Security Roadmap, Tips, Learning Techniques.
 
 ## 3. Exploitation:
 - Bind Shell & Reverse Shell
-- [Metasploit](https://www.metasploit.com/)
+- [Metasploit - msfconsole](https://www.metasploit.com/)
 - [Netcat - to Allow connection over TCP/UDP](https://www.kali.org/tools/netcat/)
 - [routersploit - Embedded devices](https://github.com/threat9/routersploit)
+- [Metasploit - msfvenom](https://www.metasploit.com/)
+
+
 
 
