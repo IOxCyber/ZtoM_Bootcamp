@@ -30,7 +30,10 @@ Repo about Cyber Security Roadmap, Tips, Learning Techniques.
 - [Netcat - to Allow connection over TCP/UDP](https://www.kali.org/tools/netcat/)
 - [routersploit - Embedded devices](https://github.com/threat9/routersploit)
 - [Metasploit - msfvenom](https://www.metasploit.com/)
+- [Virus Total - To check the payload is detectable by the known Antivirus s/w](https://www.virustotal.com/gui/home/upload)
 
-
+## Extras:
+- [Virus Total - Analyse suspicious files, domains, IPs and URLs](https://www.virustotal.com/gui/home/upload)
+- 
 
 
