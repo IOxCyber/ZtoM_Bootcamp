@@ -29,8 +29,10 @@ Repo about Cyber Security Roadmap, Tips, Learning Techniques.
 - [Metasploit - msfconsole](https://www.metasploit.com/)
 - [Netcat - to Allow connection over TCP/UDP](https://www.kali.org/tools/netcat/)
 - [routersploit - Embedded devices](https://github.com/threat9/routersploit)
-- [Metasploit - msfvenom](https://www.metasploit.com/)
+- [Metasploit - msfvenom]([https://www.metasploit.com/](https://docs.metasploit.com/docs/using-metasploit/basics/how-to-use-msfvenom.html)
+- [Metasploit - meterpreter]([https://www.metasploit.com/](https://www.offsec.com/metasploit-unleashed/meterpreter-basics/)
 - [Virus Total - To check payload Detectability](https://www.virustotal.com/gui/home/upload)
+- 
 
 ## Extras:
 - [Virus Total - Analyse suspicious files, domains, IPs, and URLs](https://www.virustotal.com/gui/home/upload)
