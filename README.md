@@ -20,17 +20,17 @@ Repo about Cyber Security Roadmap, Tips, Learning Techniques.
 
 ## 2. Scanning:
 - [Metasploitable](https://information.rapid7.com/download-metasploitable-2017.html?LS=1631875&CS=web) - Vulnerable Machine
-- [Basic & Advance Nmap - to scan a network](https://nmap.org/)
-- [Netdiscover - To detect online hosts in a netwok](https://www.kali.org/tools/netdiscover/)
-- [Nessus Tool -  Advanced tool to scan for vuln in a Network](https://www.tenable.com/products/nessus/nessus-essentials)
+- [Basic & Advance Nmap - To scan a network](https://nmap.org/)
+- [Netdiscover - Host Discovery in a netwok](https://www.kali.org/tools/netdiscover/)
+- [Nessus Tool -  To scan for vuln in a Network](https://www.tenable.com/products/nessus/nessus-essentials)
 
 ## 3. Exploitation:
 - Bind Shell & Reverse Shell
-- [Metasploit - msfconsole](https://www.metasploit.com/)
-- [Netcat - to Allow connection over TCP/UDP](https://www.kali.org/tools/netcat/)
-- [routersploit - Embedded devices](https://github.com/threat9/routersploit)
-- [Metasploit - msfvenom]([https://www.metasploit.com/](https://docs.metasploit.com/docs/using-metasploit/basics/how-to-use-msfvenom.html)
-- [Metasploit - meterpreter]([https://www.metasploit.com/](https://www.offsec.com/metasploit-unleashed/meterpreter-basics/)
+- [msfconsole - Metasploit Framework Console/Primary Interface](https://www.metasploit.com/)
+- [meterpreter - Payload/ an interactive shell](https://www.offsec.com/metasploit-unleashed/meterpreter-basics/)
+- [msfvenom - Payload Generator](https://docs.metasploit.com/docs/using-metasploit/basics/how-to-use-msfvenom.html)
+- [Netcat - To Allow connection over TCP/UDP](https://www.kali.org/tools/netcat/)
+- [routersploit - Exploitation framework for Embedded devices](https://github.com/threat9/routersploit)
 - [Virus Total - To check payload Detectability](https://www.virustotal.com/gui/home/upload)
 - 
 
