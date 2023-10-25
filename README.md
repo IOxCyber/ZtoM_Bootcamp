@@ -32,7 +32,7 @@ Repo about Cyber Security Roadmap, Tips, Learning Techniques.
 - [Netcat - To Allow connection over TCP/UDP](https://www.kali.org/tools/netcat/)
 - [routersploit - Exploitation framework for Embedded devices](https://github.com/threat9/routersploit)
 - [Virus Total - To check payload Detectability](https://www.virustotal.com/gui/home/upload)
-- 
+- [TheFatRat - Backdoor Generator](https://github.com/screetsec/TheFatRat)
 
 ## Extras:
 - [Virus Total - Analyse suspicious files, domains, IPs, and URLs](https://www.virustotal.com/gui/home/upload)
