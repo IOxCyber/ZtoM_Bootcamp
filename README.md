@@ -27,12 +27,15 @@ Repo about Cyber Security Roadmap, Tips, Learning Techniques.
 ## 3. Exploitation:
 - Bind Shell & Reverse Shell
 - [msfconsole - Metasploit Framework Console/Primary Interface](https://www.metasploit.com/)
-- [meterpreter - Payload/ an interactive shell](https://www.offsec.com/metasploit-unleashed/meterpreter-basics/)
 - [msfvenom - Payload Generator](https://docs.metasploit.com/docs/using-metasploit/basics/how-to-use-msfvenom.html)
 - [Netcat - To Allow connection over TCP/UDP](https://www.kali.org/tools/netcat/)
 - [routersploit - Exploitation framework for Embedded devices](https://github.com/threat9/routersploit)
 - [Virus Total - To check payload Detectability](https://www.virustotal.com/gui/home/upload)
 - [TheFatRat - Backdoor Generator](https://github.com/screetsec/TheFatRat)
+
+## 4. Post Exploitation:
+- [meterpreter - Payload/ an interactive shell](https://www.offsec.com/metasploit-unleashed/meterpreter-basics/)
+- 
 
 ## Extras:
 - [Virus Total - Analyse suspicious files, domains, IPs, and URLs](https://www.virustotal.com/gui/home/upload)
