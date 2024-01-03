@@ -13,10 +13,10 @@ Repo about Cyber Security Roadmap, Tips, Learning Techniques.
   
 > (Kali-Linux):
 - [Recon-ng - Info Gathering thu Modules](https://github.com/lanmaster53/recon-ng),
-- [RedHawk],
-- [Sherlock],
-- [whatweb],
-- [theHarvester]
+- [RedHawk - Information Gathering, Vul Scanning etc](https://github.com/Tuhinshubhra/RED_HAWK)
+- [Sherlock - Social Media Crawling](https://github.com/sherlock-project/sherlock)
+- [whatweb - Identify technologies used by websites](https://www.kali.org/tools/whatweb/)
+- [theHarvester - E-mails, subdomains](https://github.com/laramies/theHarvester)
 
 ## 2. Scanning:
 - [Metasploitable](https://information.rapid7.com/download-metasploitable-2017.html?LS=1631875&CS=web) - Vulnerable Machine
@@ -35,10 +35,10 @@ Repo about Cyber Security Roadmap, Tips, Learning Techniques.
 
 ## 4. Post Exploitation:
 - [meterpreter - Payload/ an interactive shell](https://www.offsec.com/metasploit-unleashed/meterpreter-basics/)
-- 
 
 ## Extras:
 - [Virus Total - Analyse suspicious files, domains, IPs, and URLs](https://www.virustotal.com/gui/home/upload)
-- 
+
+
 
 
