@@ -22,7 +22,7 @@ Repo about Cyber Security Roadmap, Tips, Learning Techniques.
 - [Metasploitable](https://information.rapid7.com/download-metasploitable-2017.html?LS=1631875&CS=web) - Vulnerable Machine
 - [Basic & Advance Nmap - To scan a network](https://nmap.org/)
 - [Netdiscover - Host Discovery in a netwok](https://www.kali.org/tools/netdiscover/)
-- [Nessus Tool -  To scan for vuln in a Network](https://www.tenable.com/products/nessus/nessus-essentials)
+- [Nessus Tool -  To scan for vuln in a Network]()
 
 ## 3. Exploitation:
 - Bind Shell & Reverse Shell
@@ -39,7 +39,7 @@ Repo about Cyber Security Roadmap, Tips, Learning Techniques.
 
 
 ## 5. WAPT:
-- [Burp Suite]()
+- [Burp Suite](https://github.com/IOxCyber/CyberEssentials/tree/b4a09645eda1c79584c7e97d07dd9d5263d84689/Security-Tools/Burp_Suite)
 
 ## Extras:
 - [Virus Total - Analyse suspicious files, domains, IPs, and URLs](https://www.virustotal.com/gui/home/upload)
