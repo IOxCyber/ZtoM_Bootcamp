@@ -26,6 +26,7 @@ Repo about Cyber Security Roadmap, Tips, Learning Techniques.
 
 ## 3. Exploitation:
 - Bind Shell & Reverse Shell
+- [Metasploit](https://github.com/IOxCyber/CyberEssentials/tree/b4a09645eda1c79584c7e97d07dd9d5263d84689/Security-Tools/Metasploit)
 - [msfconsole - Metasploit Framework Console/Primary Interface](https://www.metasploit.com/)
 - [msfvenom - Payload Generator](https://docs.metasploit.com/docs/using-metasploit/basics/how-to-use-msfvenom.html)
 - [Netcat - To Allow connection over TCP/UDP](https://www.kali.org/tools/netcat/)
@@ -35,6 +36,10 @@ Repo about Cyber Security Roadmap, Tips, Learning Techniques.
 
 ## 4. Post Exploitation:
 - [meterpreter - Payload/ an interactive shell](https://www.offsec.com/metasploit-unleashed/meterpreter-basics/)
+
+
+## 5. WAPT:
+- [Burp Suite]()
 
 ## Extras:
 - [Virus Total - Analyse suspicious files, domains, IPs, and URLs](https://www.virustotal.com/gui/home/upload)
