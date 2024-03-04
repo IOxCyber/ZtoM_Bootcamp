@@ -22,7 +22,7 @@ Repo about Cyber Security Roadmap, Tips, Learning Techniques.
 - [Metasploitable](https://information.rapid7.com/download-metasploitable-2017.html?LS=1631875&CS=web) - Vulnerable Machine
 - [Basic & Advance Nmap - To scan a network](https://nmap.org/)
 - [Netdiscover - Host Discovery in a netwok](https://www.kali.org/tools/netdiscover/)
-- [Nessus Tool -  To scan for vuln in a Network]()
+- [Nessus Tool -  To scan for vuln in a Network](https://github.com/IOxCyber/ZtoM_Bootcamp/tree/0edb9e85685eb1ee39c53556f84143e90fe9666e/2.Scanning/Nessus)
 
 ## 3. Exploitation:
 - Bind Shell & Reverse Shell
