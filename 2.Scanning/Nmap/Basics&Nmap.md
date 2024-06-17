@@ -7,7 +7,9 @@
 
 
 ## [Nmap Network Mapper](https://nmap.online/en/nmap-commands) - Zenmap (Online Nmap)
-- By default, Nmap performs a SYN Scan, host discovery and then performs a port scan against each host it determines is online.
+
+### `By Default Nmap uses the SYN scan (-sS) if the user has the necessary privileges (root/administrator), otherwise it falls back to a TCP connect scan (-sT).`
+
 - Host discovery(process of calculating of live hosts.) is also known as ping scan.
 - Can useful in Port Status, OS version, Protocal Version.
 - Between the protocols User Datagram Protocol (UDP) and Transmission Control Protocol (TCP), ```there are 65,535 ports available for communication between devices.```
@@ -15,7 +17,26 @@
 [Free site to learning nmap - scanme.nmap.org](http://scanme.nmap.org/)
 
 ## Flags:
--sS (SYN Quick Scan/ default scan mode), -sT (TCP connect scan), -sU(UDP slow), -sA(ACK), -sL (List out Target IPs/ Host Discovery list), 
+1. -sS (SYN Quick Scan/ default scan mode)
+- `less likely to be logged by the target system (IDS), Faster due to sending fewer packets` 
+- need root/administrator privileges to send raw packets
+2. -sT (TCP full connect scan)
+- Nmap uses the operating system's networking API to establish a full TCP connection with the target port, sends a SYN packet to the target port.
+- If the port is open, the target responds with a SYN/ACK, completes the handshake with an ACK, establishing a full connection.
+- Nmap then closes the connection with a FIN packet or by sending an RST packet.
+- `Because a full connection is established, it is more likely to be logged by the target system, making it easier to detect.`
+
+3. -sU(UDP slow) 
+- `To discover open UDP ports on a target, slower`
+- `Identifies services running on non-standard ports that might be missed by TCP scans.`
+- Many firewalls and IDS are less configured to log UDP traffic compared to TCP.
+- Scanning for services like DNS, SNMP, NTP, and others that typically run on UDP.
+
+4. -sA(ACK)
+- `Helps in understanding firewall rules and policies by identifying which ports are filtered.`
+- less likely to be logged.
+
+5. -sL (List out Target IPs/ Host Discovery list)
 
 ## [Cheatsheet Common Scans](https://www.stationx.net/nmap-cheat-sheet/):
 1. ```nmap -sn x.x.x.x/24 - Ping Scan (CIDR Notation)/ Disable Port scanning. Same as NetDiscover.```
