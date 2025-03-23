@@ -1,4 +1,4 @@
-# Information GatheringRedHawk
+# Information Gathering
 
 ## Two Types of Recon
   1. Active - By Interacting with target eg. social engineering(Interviewing), automated scanning or manual scanning etc 
@@ -66,7 +66,7 @@ eg. , [Sherlock - to find usernames across social networks](https://www.kali.org
 
 ## How to enable Copy/Paste in VM: Devices > Drag and Drop > set Bidirectional. 
 
-
+RedHawk
 
 
 
